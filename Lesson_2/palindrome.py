@@ -1,8 +1,10 @@
 class Solution:
     def __isPalindrome__(self, s: str) -> bool:
-        s = s.lowercase()
+        self.s = s
+        s = s.lower()
         print: s
 
-a = Solution()
+a = Solution("MaDam")
 
-a.__isPalindrome__("MaDam")
+# a.isPalindrome("MaDam")
+print("Working!")
